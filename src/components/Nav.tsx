@@ -33,16 +33,15 @@ export function Nav() {
 
   return (
     <header
+      style={{ viewTransitionName: 'site-header' }}
       className={`no-print sticky top-0 z-40 border-b transition-colors duration-200 ${
         scrolled || open ? 'border-line bg-bg/90 backdrop-blur' : 'border-transparent bg-bg'
       }`}
     >
       <nav className="mx-auto flex h-[72px] max-w-6xl items-center gap-6 px-5 sm:px-8" aria-label="Main">
         <Link href="/" className="flex items-center gap-2.5 text-[17px] font-extrabold tracking-tight text-title" onClick={() => setOpen(false)}>
-          <span aria-hidden className="relative grid h-9 w-9 place-items-center rounded-xl bg-navy-700 text-[17px] font-extrabold leading-none text-white">
-            A
-            <i className="absolute bottom-[9px] right-[7px] h-[5px] w-[5px] rounded-full bg-accent-strong" />
-          </span>
+          {/* eslint-disable-next-line @next/next/no-img-element -- logo SVG statis */}
+          <img src="/logo/al-tile.svg" alt="" width={36} height={36} className="h-9 w-9 transition-transform duration-300 hover:-rotate-6" />
           {profile.shortName}
         </Link>
 

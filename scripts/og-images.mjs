@@ -7,6 +7,7 @@ import { profile } from '../src/content/profile.ts';
 
 mkdirSync('public/og', { recursive: true });
 const photo = `data:image/webp;base64,${readFileSync('public/img/almadhani.webp').toString('base64')}`;
+const logo = readFileSync('design/logo/kit/al-lockup-reversed.svg', 'utf8').replace('<svg', '<svg class="logo" height="44"');
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
 
 const css = `
@@ -19,12 +20,14 @@ h1{font-size:64px;line-height:1.05;font-weight:800;letter-spacing:-.02em;margin-
 .sub{font-size:30px;font-weight:300;color:#DCE4F7;margin-top:14px}.sub b{font-weight:800;color:#fff}.sub span{color:#F4714F;font-weight:700}
 .foot{position:absolute;left:72px;right:72px;bottom:56px;display:flex;gap:14px}
 .stat{background:#fff;border-radius:18px;padding:16px 22px;color:#1E3A8A}.stat b{display:block;font-size:30px;font-weight:800}.stat span{font-size:16px;color:#4B5361;font-weight:600}
-.url{position:absolute;right:72px;top:68px;font-size:20px;font-weight:700;color:#C9D6F5}
-img{position:absolute;right:72px;top:150px;width:250px;height:250px;border-radius:28px;border:6px solid #fff;object-fit:cover}
+.url{position:absolute;right:72px;top:118px;font-size:18px;font-weight:700;color:#C9D6F5}
+.logo{position:absolute;right:72px;top:62px}
+img{position:absolute;right:72px;top:160px;width:250px;height:250px;border-radius:28px;border:6px solid #fff;object-fit:cover}
 `;
 
 function home() {
   return `<div class="top"></div><span class="eyebrow">● Open to remote work · UTC+7</span>
+  ${logo}
   <h1 style="max-width:760px">${esc(profile.name)}</h1>
   <p class="sub"><b>${esc(profile.title)}</b> <span>· ${esc(profile.titleAccent)}</span></p>
   <img src="${photo}">
@@ -33,6 +36,7 @@ function home() {
 
 function study(c) {
   return `<div class="top"></div><span class="eyebrow">Case study · ${esc(c.client)}</span>
+  ${logo}
   <div class="url">almadhanif.solvara-tech.com</div>
   <h1 style="max-width:1000px;font-size:58px">${esc(c.title)}</h1>
   <p class="sub" style="font-size:24px;max-width:960px;line-height:1.45">${esc(c.summary)}</p>

@@ -62,7 +62,7 @@ export function homeJsonLd() {
     '@context': 'https://schema.org',
     '@graph': [
       person(),
-      { '@type': 'WebSite', '@id': `${SITE_URL}/#website`, url: SITE_URL, name: profile.name, inLanguage: 'en', publisher: { '@id': PERSON_ID } },
+      { '@type': 'WebSite', '@id': `${SITE_URL}/#website`, url: SITE_URL, name: profile.name, inLanguage: 'en', publisher: { '@id': PERSON_ID }, image: `${SITE_URL}/icons/icon-512.png` },
       {
         '@type': 'ProfilePage',
         '@id': `${SITE_URL}/#profile`,

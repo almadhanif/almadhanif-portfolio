@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- A sebagai caret ke atas; palang diganti satu node persegi = titik ide menjadi produk -->
+  <path d="M128 30 L218 226 H176 L128 120 L80 226 H38 Z"/>
+  <rect x="109" y="166" width="38" height="38" rx="8"/>
+</svg>

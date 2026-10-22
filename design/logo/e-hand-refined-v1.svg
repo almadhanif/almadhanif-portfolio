@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Versi rapi: sudut & ketebalan konsisten, A dan L satu baseline, ekor L jadi lengkung halus yang "mengangkat" -->
+  <path d="M42 206 L96 66 Q104 46 113 66 L124 206" stroke="#1E3A8A" stroke-width="20"/>
+  <path d="M32 152 H116" stroke="#EE5533" stroke-width="18"/>
+  <path d="M166 50 L158 176 Q156 202 182 194 L226 172" stroke="#1E3A8A" stroke-width="20"/>
+</svg>

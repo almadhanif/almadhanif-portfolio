@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- AL tulisan tangan (dari foto kaca berembun): goresan tunggal membulat, palang A menjorok ke kiri, ekor L naik ke kanan -->
+  <path d="M40 204 Q70 128 98 64 Q103 52 109 62 Q118 128 122 200" stroke="#1E3A8A" stroke-width="19"/>
+  <path d="M34 142 Q72 136 112 134" stroke="#EE5533" stroke-width="17"/>
+  <path d="M166 48 Q158 118 152 168 Q148 194 172 186 Q200 176 224 158" stroke="#1E3A8A" stroke-width="19"/>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="840" viewBox="0 0 1600 840"><rect width="1600" height="840" fill="#f7f7f4"/><text x="60" y="78" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" font-weight="700" fill="#161616">Logo concepts</text><text x="60" y="116" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" fill="#6b6b6b">Concepts for review — pick a direction (or tell me what you like in each).</text><rect x="60" y="150" width="474.667" height="630" rx="18" fill="#fff" stroke="#e4e4e0" stroke-width="1"/><g><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 256 256" x="90" y="190" width="414.667" height="300" preserveAspectRatio="xMidYMid meet">
+  <!-- AL tulisan tangan (dari foto kaca berembun): goresan tunggal membulat, palang A menjorok ke kiri, ekor L naik ke kanan -->
+  <path d="M40 204 Q70 128 98 64 Q103 52 109 62 Q118 128 122 200" stroke="#1E3A8A" stroke-width="19"/>
+  <path d="M34 142 Q72 136 112 134" stroke="#EE5533" stroke-width="17"/>
+  <path d="M166 48 Q158 118 152 168 Q148 194 172 186 Q200 176 224 158" stroke="#1E3A8A" stroke-width="19"/>
+</svg>
+</g><g><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 256 256" x="90" y="516" width="64" height="64" preserveAspectRatio="xMidYMid meet">
+  <!-- AL tulisan tangan (dari foto kaca berembun): goresan tunggal membulat, palang A menjorok ke kiri, ekor L naik ke kanan -->
+  <path d="M40 204 Q70 128 98 64 Q103 52 109 62 Q118 128 122 200" stroke="#1E3A8A" stroke-width="19"/>
+  <path d="M34 142 Q72 136 112 134" stroke="#EE5533" stroke-width="17"/>
+  <path d="M166 48 Q158 118 152 168 Q148 194 172 186 Q200 176 224 158" stroke="#1E3A8A" stroke-width="19"/>
+</svg>
+</g><text x="122" y="600" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">64px</text><g><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 256 256" x="180" y="548" width="32" height="32" preserveAspectRatio="xMidYMid meet">
+  <!-- AL tulisan tangan (dari foto kaca berembun): goresan tunggal membulat, palang A menjorok ke kiri, ekor L naik ke kanan -->
+  <path d="M40 204 Q70 128 98 64 Q103 52 109 62 Q118 128 122 200" stroke="#1E3A8A" stroke-width="19"/>
+  <path d="M34 142 Q72 136 112 134" stroke="#EE5533" stroke-width="17"/>
+  <path d="M166 48 Q158 118 152 168 Q148 194 172 186 Q200 176 224 158" stroke="#1E3A8A" stroke-width="19"/>
+</svg>
+</g><text x="196" y="600" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">32px</text><g><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 256 256" x="238" y="564" width="16" height="16" preserveAspectRatio="xMidYMid meet">
+  <!-- AL tulisan tangan (dari foto kaca berembun): goresan tunggal membulat, palang A menjorok ke kiri, ekor L naik ke kanan -->
+  <path d="M40 204 Q70 128 98 64 Q103 52 109 62 Q118 128 122 200" stroke="#1E3A8A" stroke-width="19"/>
+  <path d="M34 142 Q72 136 112 134" stroke="#EE5533" stroke-width="17"/>
+  <path d="M166 48 Q158 118 152 168 Q148 194 172 186 Q200 176 224 158" stroke="#1E3A8A" stroke-width="19"/>
+</svg>
+</g><text x="246" y="600" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">16px</text><text x="90.0" y="636" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#161616">A · 1 — Hand-drawn AL</text><text x="90.0" y="670" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">Closest to your photo: soft curves,</text><text x="90.0" y="696" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">slightly tilted crossbar, L tail swinging</text><text x="90.0" y="722" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">up.</text><rect x="562.667" y="150" width="474.667" height="630" rx="18" fill="#fff" stroke="#161616" stroke-width="2"/><g><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 256 256" x="592.667" y="190" width="414.667" height="300" preserveAspectRatio="xMidYMid meet">
+  <!-- Versi rapi: sudut & ketebalan konsisten, A dan L satu baseline, ekor L jadi lengkung halus yang "mengangkat" -->
+  <path d="M42 206 L96 66 Q104 46 113 66 L124 206" stroke="#1E3A8A" stroke-width="20"/>
+  <path d="M32 152 H116" stroke="#EE5533" stroke-width="18"/>
+  <path d="M166 50 L158 176 Q156 202 182 194 L226 172" stroke="#1E3A8A" stroke-width="20"/>
+</svg>
+</g><g><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 256 256" x="592.667" y="516" width="64" height="64" preserveAspectRatio="xMidYMid meet">
+  <!-- Versi rapi: sudut & ketebalan konsisten, A dan L satu baseline, ekor L jadi lengkung halus yang "mengangkat" -->
+  <path d="M42 206 L96 66 Q104 46 113 66 L124 206" stroke="#1E3A8A" stroke-width="20"/>
+  <path d="M32 152 H116" stroke="#EE5533" stroke-width="18"/>
+  <path d="M166 50 L158 176 Q156 202 182 194 L226 172" stroke="#1E3A8A" stroke-width="20"/>
+</svg>
+</g><text x="624.667" y="600" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">64px</text><g><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 256 256" x="682.667" y="548" width="32" height="32" preserveAspectRatio="xMidYMid meet">
+  <!-- Versi rapi: sudut & ketebalan konsisten, A dan L satu baseline, ekor L jadi lengkung halus yang "mengangkat" -->
+  <path d="M42 206 L96 66 Q104 46 113 66 L124 206" stroke="#1E3A8A" stroke-width="20"/>
+  <path d="M32 152 H116" stroke="#EE5533" stroke-width="18"/>
+  <path d="M166 50 L158 176 Q156 202 182 194 L226 172" stroke="#1E3A8A" stroke-width="20"/>
+</svg>
+</g><text x="698.667" y="600" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">32px</text><g><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 256 256" x="740.667" y="564" width="16" height="16" preserveAspectRatio="xMidYMid meet">
+  <!-- Versi rapi: sudut & ketebalan konsisten, A dan L satu baseline, ekor L jadi lengkung halus yang "mengangkat" -->
+  <path d="M42 206 L96 66 Q104 46 113 66 L124 206" stroke="#1E3A8A" stroke-width="20"/>
+  <path d="M32 152 H116" stroke="#EE5533" stroke-width="18"/>
+  <path d="M166 50 L158 176 Q156 202 182 194 L226 172" stroke="#1E3A8A" stroke-width="20"/>
+</svg>
+</g><text x="748.667" y="600" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">16px</text><text x="592.6666666666667" y="636" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#161616">B · 2 — Refined AL</text><text x="592.6666666666667" y="664" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#161616" letter-spacing="1.5">RECOMMENDED</text><text x="592.6666666666667" y="698" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">Same gesture, tidied: straight legs, level</text><text x="592.6666666666667" y="724" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">crossbar, one consistent stroke weight.</text><rect x="1065.33" y="150" width="474.667" height="630" rx="18" fill="#fff" stroke="#e4e4e0" stroke-width="1"/><g><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 256 256" x="1095.33" y="190" width="414.667" height="300" preserveAspectRatio="xMidYMid meet">
+  <!-- Ubin aplikasi/favicon: AL putih di navy, palang oranye; goresan lebih tebal untuk ukuran kecil -->
+  <rect width="256" height="256" rx="60" fill="#1E3A8A"/>
+  <path d="M56 196 L100 82 Q107 64 115 82 L125 196" stroke="#FFFFFF" stroke-width="22"/>
+  <path d="M46 156 H118" stroke="#EE5533" stroke-width="20"/>
+  <path d="M164 70 L157 172 Q155 194 177 188 L210 172" stroke="#FFFFFF" stroke-width="22"/>
+</svg>
+</g><g><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 256 256" x="1095.33" y="516" width="64" height="64" preserveAspectRatio="xMidYMid meet">
+  <!-- Ubin aplikasi/favicon: AL putih di navy, palang oranye; goresan lebih tebal untuk ukuran kecil -->
+  <rect width="256" height="256" rx="60" fill="#1E3A8A"/>
+  <path d="M56 196 L100 82 Q107 64 115 82 L125 196" stroke="#FFFFFF" stroke-width="22"/>
+  <path d="M46 156 H118" stroke="#EE5533" stroke-width="20"/>
+  <path d="M164 70 L157 172 Q155 194 177 188 L210 172" stroke="#FFFFFF" stroke-width="22"/>
+</svg>
+</g><text x="1127.33" y="600" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">64px</text><g><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 256 256" x="1185.33" y="548" width="32" height="32" preserveAspectRatio="xMidYMid meet">
+  <!-- Ubin aplikasi/favicon: AL putih di navy, palang oranye; goresan lebih tebal untuk ukuran kecil -->
+  <rect width="256" height="256" rx="60" fill="#1E3A8A"/>
+  <path d="M56 196 L100 82 Q107 64 115 82 L125 196" stroke="#FFFFFF" stroke-width="22"/>
+  <path d="M46 156 H118" stroke="#EE5533" stroke-width="20"/>
+  <path d="M164 70 L157 172 Q155 194 177 188 L210 172" stroke="#FFFFFF" stroke-width="22"/>
+</svg>
+</g><text x="1201.33" y="600" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">32px</text><g><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 256 256" x="1243.33" y="564" width="16" height="16" preserveAspectRatio="xMidYMid meet">
+  <!-- Ubin aplikasi/favicon: AL putih di navy, palang oranye; goresan lebih tebal untuk ukuran kecil -->
+  <rect width="256" height="256" rx="60" fill="#1E3A8A"/>
+  <path d="M56 196 L100 82 Q107 64 115 82 L125 196" stroke="#FFFFFF" stroke-width="22"/>
+  <path d="M46 156 H118" stroke="#EE5533" stroke-width="20"/>
+  <path d="M164 70 L157 172 Q155 194 177 188 L210 172" stroke="#FFFFFF" stroke-width="22"/>
+</svg>
+</g><text x="1251.33" y="600" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">16px</text><text x="1095.3333333333335" y="636" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#161616">C · 3 — AL app tile</text><text x="1095.3333333333335" y="670" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">Option 2 reversed on a navy tile with</text><text x="1095.3333333333335" y="696" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">heavier strokes, for favicon, navbar and</text><text x="1095.3333333333335" y="722" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">avatar.</text></svg>

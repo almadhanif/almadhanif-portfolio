@@ -1,0 +1,21 @@
+# Produksi di VPS: /opt/apps/solvara/almadhanif. Proxy utama (solvara-proxy) meneruskan
+# almadhanif.solvara-tech.com → almadhanif-web:8080 lewat network `web`.
+services:
+  web:
+    build:
+      context: .
+      args:
+        NEXT_PUBLIC_UMAMI_WEBSITE_ID: ${NEXT_PUBLIC_UMAMI_WEBSITE_ID:-}
+    container_name: almadhanif-web
+    restart: unless-stopped
+    mem_limit: 48m
+    networks: [web]
+    healthcheck:
+      test: ['CMD', 'wget', '-qO-', 'http://127.0.0.1:8080/']
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+networks:
+  web:
+    external: true

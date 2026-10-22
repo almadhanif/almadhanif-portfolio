@@ -14,7 +14,7 @@ export const profile = {
   cvPath: '/Firman_Almadhani_Kurniawan_CV.pdf',
   photo: '/img/almadhani.webp',
   lead:
-    'I build production AI systems for enterprise clients in the US, UK, Singapore and Indonesia, and run five live SaaS products at Solvara.',
+    'Production AI for enterprise clients in the US, UK, Singapore and Indonesia — plus five live SaaS products I run at Solvara.',
   summary: [
     'Tech Lead and Senior Fullstack Engineer with 3+ years building production AI systems. I own features from technical spike through privacy review, build, and post-deploy validation — most recently an AI editing assistant on Vertex AI, with the production model chosen through a 315-call evaluation harness.',
     'Core strengths are RAG pipelines and LLM integration, microservice architecture, and making systems fast under real load. I work in English across US and European time zones and act as release gatekeeper for my teams.',

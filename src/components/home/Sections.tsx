@@ -6,12 +6,13 @@ import { experience } from '@/content/experience';
 import { awards, certifications, otherWork, skills } from '@/content/more';
 import { ArrowIcon, BrowserFrame, Chips, ExternalIcon, SectionHeader, SkillIcon } from '@/components/ui';
 import { DownloadIcon } from '@/components/Nav';
+import { MorphTitle } from '@/components/PageTransition';
 
 const wrap = 'mx-auto max-w-6xl px-5 sm:px-8';
 
 export function About() {
   return (
-    <section aria-labelledby="about" className={`${wrap} pt-20`}>
+    <section aria-labelledby="about" className={`${wrap} pt-24`}>
       <SectionHeader num="01" a="About" b="me" id="about" />
       <div className="reveal grid gap-8 lg:grid-cols-[1.5fr_1fr]">
         <div className="space-y-4 text-[17px] leading-[1.75] text-muted">
@@ -42,6 +43,7 @@ export function Work() {
           <li key={c.slug} className="reveal">
             <Link
               href={`/work/${c.slug}`}
+              transitionTypes={['nav-forward']}
               className="card group flex h-full flex-col p-6 transition-transform duration-200 hover:-translate-y-1 sm:p-7"
             >
               <div className="flex items-center gap-2 text-[13px] font-bold text-muted">
@@ -49,7 +51,9 @@ export function Work() {
                 {c.client}
                 <span className="ml-auto font-semibold">{c.period}</span>
               </div>
-              <h3 className="mt-3 text-[21px] font-extrabold leading-snug tracking-tight text-title">{c.title}</h3>
+              <MorphTitle slug={c.slug}>
+                <h3 className="mt-3 text-[21px] font-extrabold leading-snug tracking-tight text-title">{c.title}</h3>
+              </MorphTitle>
               <p className="mt-2 flex-1 text-[15px] leading-relaxed text-muted">{c.summary}</p>
               <dl className="mt-5 grid grid-cols-2 gap-2.5">
                 {c.metrics.slice(0, 2).map((m) => (
@@ -128,7 +132,7 @@ export function Products() {
               <div className="mt-6 flex flex-wrap items-center gap-4">
                 <Chips items={p.stack} />
                 {p.caseStudy ? (
-                  <Link href={`/work/${p.caseStudy}`} className="inline-flex items-center gap-1.5 text-[14.5px] font-bold text-accent">
+                  <Link href={`/work/${p.caseStudy}`} transitionTypes={['nav-forward']} className="inline-flex items-center gap-1.5 text-[14.5px] font-bold text-accent">
                     Case study <ArrowIcon />
                   </Link>
                 ) : null}

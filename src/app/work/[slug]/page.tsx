@@ -5,6 +5,7 @@ import { caseStudies, caseStudyBySlug } from '@/content/work';
 import { profile } from '@/content/profile';
 import { ArrowIcon, BrowserFrame, Chips, ExternalIcon, JsonLd } from '@/components/ui';
 import { FlowDiagram } from '@/components/FlowDiagram';
+import { MorphTitle, PageTransition } from '@/components/PageTransition';
 import { caseStudyJsonLd, jsonLdString, workTitle } from '@/lib/seo';
 
 export const dynamicParams = false;
@@ -34,14 +35,15 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
   const next = caseStudies[(idx + 1) % caseStudies.length];
 
   return (
+    <PageTransition>
     <article className="mx-auto max-w-6xl px-5 pb-20 sm:px-8">
       <JsonLd data={jsonLdString(caseStudyJsonLd(c))} />
 
       <nav aria-label="Breadcrumb" className="pt-8 text-[14px] font-semibold text-muted">
         <ol className="flex flex-wrap items-center gap-2">
-          <li><Link href="/" className="hover:text-title">Home</Link></li>
+          <li><Link href="/" transitionTypes={['nav-back']} className="hover:text-title">Home</Link></li>
           <li aria-hidden>/</li>
-          <li><Link href="/#work" className="hover:text-title">Work</Link></li>
+          <li><Link href="/#work" transitionTypes={['nav-back']} className="hover:text-title">Work</Link></li>
           <li aria-hidden>/</li>
           <li aria-current="page" className="text-title">{c.client}</li>
         </ol>
@@ -53,7 +55,9 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
           <span className="rounded-full bg-[#EE5533] px-2 py-0.5 text-[10.5px] font-extrabold tracking-wider text-white">{c.cc}</span>
           {c.client} · {c.period}
         </p>
-        <h1 className="mt-4 max-w-[24ch] text-[32px] font-extrabold leading-[1.1] tracking-tight sm:text-[46px]">{c.title}</h1>
+        <MorphTitle slug={c.slug}>
+          <h1 className="mt-4 max-w-[24ch] text-[32px] font-extrabold leading-[1.1] tracking-tight sm:text-[46px]">{c.title}</h1>
+        </MorphTitle>
         <p className="mt-4 max-w-[62ch] text-[17px] leading-relaxed text-[#dce4f7]">{c.summary}</p>
         <p className="mt-4 text-[14px] font-semibold text-[#F4714F]">{c.role}</p>
         <dl className="mt-8 grid gap-3 sm:grid-cols-3">
@@ -142,7 +146,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
         </aside>
       </div>
 
-      <Link href={`/work/${next.slug}`} className="card group mt-16 flex items-center gap-5 p-6 sm:p-8">
+      <Link href={`/work/${next.slug}`} transitionTypes={['nav-forward']} className="card group mt-16 flex items-center gap-5 p-6 sm:p-8">
         <div className="flex-1">
           <p className="eyebrow">Next case study</p>
           <p className="mt-1.5 text-[20px] font-extrabold tracking-tight text-title sm:text-[24px]">{next.title}</p>
@@ -153,5 +157,6 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
         </span>
       </Link>
     </article>
+    </PageTransition>
   );
 }

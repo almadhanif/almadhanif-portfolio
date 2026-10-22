@@ -18,7 +18,12 @@ export function Hero() {
         <span className="blob blob-a" />
         <span className="blob blob-b" />
         <span className="blob blob-c" />
-        <span className="hero-grid" />
+        {/* Goresan "AL" dari logo, sangat besar & samar, "digambar" sekali saat halaman dibuka */}
+        <svg className="hero-mark" viewBox="0 0 256 256" fill="none" strokeLinecap="round" strokeLinejoin="round">
+          <path pathLength={1} d="M40 204 Q70 128 98 64 Q103 52 109 62 Q118 128 122 200" />
+          <path pathLength={1} className="hero-mark-bar" d="M34 142 Q72 136 112 134" />
+          <path pathLength={1} d="M166 48 Q158 118 152 168 Q148 194 172 186 Q200 176 224 158" />
+        </svg>
       </div>
       <div aria-hidden className="topline absolute inset-x-0 top-0 h-1" />
 

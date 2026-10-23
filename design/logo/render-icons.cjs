@@ -21,4 +21,16 @@ const jobs = [
     }
   }
   await b.close();
+  // favicon.ico = PNG 16/32/48 hasil Chromium (Quick Look merender logo jadi titik kecil di kanvas putih).
+  const pngs = [16, 32, 48].map((n) => fs.readFileSync(`${K}icon-${n}.png`));
+  const head = Buffer.alloc(6 + 16 * pngs.length);
+  head.writeUInt16LE(0, 0); head.writeUInt16LE(1, 2); head.writeUInt16LE(pngs.length, 4);
+  let off = head.length;
+  pngs.forEach((buf, i) => {
+    const n = [16, 32, 48][i], e = 6 + 16 * i;
+    head.writeUInt8(n, e); head.writeUInt8(n, e + 1); head.writeUInt16LE(1, e + 4); head.writeUInt16LE(32, e + 6);
+    head.writeUInt32LE(buf.length, e + 8); head.writeUInt32LE(off, e + 12); off += buf.length;
+  });
+  fs.writeFileSync(K + 'favicon.ico', Buffer.concat([head, ...pngs]));
+  console.log('ok', K + 'favicon.ico');
 })();

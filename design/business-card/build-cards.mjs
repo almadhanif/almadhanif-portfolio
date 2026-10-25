@@ -45,11 +45,11 @@ const contacts = () => `<ul class="contacts">
   <li><i>${ICON.email}</i>${P.email}</li><li><i>${ICON.web}</i>${P.web}</li><li><i>${ICON.linkedin}</i>${P.linkedin}</li>
   <li><i>${ICON.github}</i>${P.github}</li><li><i>${ICON.pin}</i>${P.city}</li></ul>`;
 
-const FRONT = `<div class="card front"><div class="top"></div>${bigMark('mark')}
+const FRONT = `<div class="card front">${bigMark('mark')}
   <div class="safe">${svgFile('al-symbol-reversed.svg', 'logo')}
     <div class="who"><h1>${P.name}</h1><p>${P.title}</p><p class="acc">${P.accent}</p></div></div></div>`;
 
-const BACK = `<div class="card back"><div class="top"></div>
+const BACK = `<div class="card back">
   <div class="safe"><div class="col">
     <h2>Let’s build something<br><span>reliable.</span></h2><span class="rule"></span>${contacts()}</div></div>
   <aside class="panel">${bigMark('mark')}
@@ -72,8 +72,6 @@ body{font-family:'Plus Jakarta Sans',sans-serif;-webkit-font-smoothing:antialias
 .safe{position:absolute;inset:6mm}
 /* Tanpa transparansi: warna samar sudah dicampur dengan latarnya. Gradien = gambar 600 dpi ber-dither (lihat GRADIENTS):
    konversi CMYK Ghostscript merasterisasi gradien CSS di ~90 ppi atau membuangnya. */
-.top{position:absolute;left:0;right:0;top:0;height:4.2mm;background-size:100% 100%}
-.front .top{background-image:url(__TOP_FRONT__)}.back .top{background-image:url(__TOP_BACK__)}
 .mark .bar{stroke-width:17}
 
 .front{background:#17307A url(__BG_FRONT__) 0 0/100% 100%;color:#fff}
@@ -133,8 +131,6 @@ function cropMarks() {
 const GRADIENTS = {
   __BG_FRONT__: ['linear-gradient(140deg,#2B4BA0 0%,#17307A 55%,#10205A 100%)', 96, 61],
   __BG_PANEL__: ['linear-gradient(160deg,#2B4BA0 0%,#17307A 55%,#10205A 100%)', 37, 61],
-  __TOP_FRONT__: ['linear-gradient(90deg,#F5A623,#EE5533 45%,#22408F 90%)', 96, 4.2],
-  __TOP_BACK__: ['linear-gradient(90deg,#F5A623,#EE5533 45%,#FFFFFF 90%)', 96, 4.2],
 };
 async function renderGradients(browser) {
   const ctx = await browser.newContext({ deviceScaleFactor: 600 / 96 });
